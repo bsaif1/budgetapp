@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background-color: aqua;
+}
+h1{
+  padding-left: 90px;
+  padding-top: 40px;
+}
+.wrapper{
+  width: 90%;
+  font-size: 20px;
+  margin: 1em auto;
+}
+.container{
+  width: 100%;
+}
+.container input{
+    display: block;
+    width: 100%;
+    padding: 0.6em 0.3em;
+    border: 1px solid #d0d0d0;
+    border-radius: 0.3em;
+    color: #414a67;
+    outline: none;
+    font-weight: 400;
+    margin-bottom: 0.6em;
+}
+.total-amount-container{
+  background-color: blue;
+  color: aliceblue;
+  padding: 1.25em 0.9em;
+  border-radius: 0.3em;
+  box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
+  margin: 2em;
+}
+.user-amount-container{
+  background-color: blue;
+  color: aliceblue;
+  padding: 1.25em 0.9em;
+  border-radius: 0.3em;
+  box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
+  margin: 2em;
+}
+.output-container{
+  background-color: black;
+  color: white;
+  margin: 2em;
+}
+.output-container p {
+  font-weight: 500;
+  margin-bottom: 0.6em;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.output-container span {
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  color: #e5e5e5;
+}
+.hide{
+  display: none;
+}
+.sublist-content {
+  width: 100%;
+  border-left: 0.3em solid #587ef4;
+  margin-bottom: 0.6em;
+  padding: 0.5em 1em;
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr 1fr;
+}
+.list {
+  background-color: aliceblue;
+  color: black;
+  padding: 1.8em 1.2em;
+  box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
+  border-radius: 0.6em;
+  margin: 2em;
+}
+.icons-container {
+  width: 5em;
+  margin: 1.2em;
+  align-items: center;
+}
+.edit{
+  background: transparent;
+  cursor: pointer;
+  margin-right: 0.5em;
+  border: none;
+  color: #587ef4;
+}
+.delete{
+  background: transparent;
+  cursor: pointer;
+  margin-right: 0.5em;
+  border: none;
+  color: #587ef4;
+}
+.error {
+  color: #ff465a;
+}
+.edit {
+  margin-left: auto;
+}
+.product {
+  font-weight: 500;
+  color: #363d55;
+}
+.amount {
+  color: #414a67;
+  margin-left: 20%;
+}
